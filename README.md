@@ -65,4 +65,6 @@ The goals of this project are threefold:
     * Max-pooling layer: slides an (f,f) window over the input and stores the max value of the window in the output.
 <img src="https://hackernoon.com/hn-images/1*Feiexqhmvh9xMGVVJweXhg.gif" data-canonical-src="https://hackernoon.com/hn-images/1*Feiexqhmvh9xMGVVJweXhg.gif" width="600" height="250" />
 
-
+# Fully Connected Layer
+* Fully connected layers connect every neuron in one layer to every neuron in another layer. It is in principle the same as the traditional multi-layer perceptron neural network (MLP). The flattened matrix goes through a fully connected layer to classify the images.
+<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/ANN-Graph.gif" width="600" height="300" />
