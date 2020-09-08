@@ -34,13 +34,6 @@ The goals of this project are threefold:
 * #### Normal Images:(Extract the normal images from below dataset)
     * https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia 
 
-
-
-
-# Block Diagram:
-<img src="/blockdiagram/blockdiagram1.PNG" data-canonical-src="/blockdiagram/blockdiagram1.PNG " width="800" height="350" />
-
-
 ## PROCEDURE
 * Label the data from different data sets.
 * Divide the data set into 80% for training and 20% for validation(Testing).
@@ -52,5 +45,24 @@ The goals of this project are threefold:
 * Compute confusion matrix to evaluate the accuracy of a classification.
 
 
+# Block Diagram:
+<img src="/blockdiagram/blockdiagram1.PNG" data-canonical-src="/blockdiagram/blockdiagram1.PNG " width="800" height="350" />
+
+
+
+# Convolution Layer
+* In which we apply the filter to a single position of the input. This will be used to build a convolutional unit, which:
+    * Takes an input volume
+    * Applies a filter at every position of the input
+    * Outputs another volume (usually of different size)
+<img src="https://media.giphy.com/media/i4NjAwytgIRDW/giphy.gif" data-canonical-src="https://media.giphy.com/media/i4NjAwytgIRDW/giphy.gif "/>
+
+* In a computer vision application, each value in the matrix on the left corresponds to a single pixel value, and we convolve a 3x3 filter with the image by multiplying its values element-wise with the original matrix, then summing them up and adding a bias. In this first step of the exercise, you will implement a single step of convolution, corresponding to applying a filter to just one of the positions to get a single real-valued output.
   
+# Max Pooling
+
+* The pooling (POOL) layer reduces the height and width of the input. It helps reduce computation, as well as helps make feature detectors more invariant to its position in the input. The two types of pooling layers are:
+    * Max-pooling layer: slides an (f,f) window over the input and stores the max value of the window in the output.
+<img src="https://hackernoon.com/hn-images/1*Feiexqhmvh9xMGVVJweXhg.gif" data-canonical-src="https://hackernoon.com/hn-images/1*Feiexqhmvh9xMGVVJweXhg.gif" width="600" height="250" />
+
 
