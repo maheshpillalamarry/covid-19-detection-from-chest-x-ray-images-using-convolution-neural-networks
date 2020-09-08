@@ -27,7 +27,7 @@ The goals of this project are threefold:
     *  seaborn
        * To visualize confusion matrix
 # Block Diagram:
-![Alt Block diagram](images/blockdiagram1.png)
+![Alt Block diagram](https://projects.kluniversity.in/s12-batch17/covid-19-detection-from-chest-x-ray-images-using-convolution-neural-networks/-/blob/master/blockdiagram/blockdiagram1.PNG)
 
 
 
