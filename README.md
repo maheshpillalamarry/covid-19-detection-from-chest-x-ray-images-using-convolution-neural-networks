@@ -27,7 +27,7 @@ The goals of this project are threefold:
     *  seaborn
         * To visualize confusion matrix
 
-# DataSet:
+## DataSet:
 * #### Covid-19 chest x-ray images are obtained at 
     * https://github.com/ieee8023/covid-chestxray-dataset/tree/master/images
     
@@ -38,8 +38,18 @@ The goals of this project are threefold:
 
 
 # Block Diagram:
-![Block diagram](/blockdiagram/blockdiagram1.PNG)
+<img src="/blockdiagram/blockdiagram1.PNG" data-canonical-src="/blockdiagram/blockdiagram1.PNG " width="800" height="350" />
 
+
+## PROCEDURE
+* Label the data from different data sets.
+* Divide the data set into 80% for training and 20% for validation(Testing).
+* choose the number of kernals(filters) and size of filters(3x3 standard).
+* choose number of convolution layers needed and activation function(we uses relu).
+* choose dense layers,optimizer and Test the data.
+* find the Accuracy of the model.
+* plot accuracy and loss of model.
+* Compute confusion matrix to evaluate the accuracy of a classification.
 
 
   
