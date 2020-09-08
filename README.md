@@ -25,9 +25,20 @@ The goals of this project are threefold:
     *  sklearn.metrics
         * The sklearn. metrics module implements several loss, score, and utility functions to measure classification performance
     *  seaborn
-       * To visualize confusion matrix
+        * To visualize confusion matrix
+
+# DataSet:
+* #### Covid-19 chest x-ray images are obtained at 
+    * https://github.com/ieee8023/covid-chestxray-dataset/tree/master/images
+    
+* #### Normal Images:(Extract the normal images from below dataset)
+    * https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia 
+
+
+
+
 # Block Diagram:
-![Alt Block diagram](https://projects.kluniversity.in/s12-batch17/covid-19-detection-from-chest-x-ray-images-using-convolution-neural-networks/-/blob/master/blockdiagram/blockdiagram1.PNG)
+![Block diagram](/blockdiagram/blockdiagram1.PNG)
 
 
 
