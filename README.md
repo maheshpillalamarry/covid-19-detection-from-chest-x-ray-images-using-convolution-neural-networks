@@ -2,12 +2,13 @@
 
 
 
-The goals of this project are threefold: 
+The goals of this project are : 
 - [1]               To explore development of a machine learning algorithm to distinguish chest X-rays of individuals with respiratory illness testing positive for COVID-19 from other X-rays,
 - [2]               To promote discovery of patterns in such X-rays via CNN interpretability algorithms, and
 - [3]               To build more robust and extensible machine learning infrastructure trained on a variety of data types, to aid in the global response to COVID-19.
 - [4]               To achive best Accuracy.
 
+## --------------------------------------------------------------------------------------------------------
 
 ## install:
 * ### Python 3.6
@@ -68,3 +69,38 @@ The goals of this project are threefold:
 # Fully Connected Layer
 * Fully connected layers connect every neuron in one layer to every neuron in another layer. It is in principle the same as the traditional multi-layer perceptron neural network (MLP). The flattened matrix goes through a fully connected layer to classify the images.
 <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/ANN-Graph.gif" width="600" height="300" />
+
+# --------------------------------------------------------------------------------------------------------
+
+# Details of Repository
+
+## In the Repository we have 3 Folders and 3 Files:
+
+* ## DataSets:
+    * This Folder Contains our prepared dataset(Labelled)
+    * Dropbox Links are provided because of large data issues
+    
+* ## papers:
+    * Sample papers for references
+    
+* ## Blockdiagram:
+    * 2 Blockdiagrams provided old and modified.
+     
+    
+* ## DATASET_PREPARATION.ipynb
+    * From the downloaded datasets we need need to extract our needed data.
+    * By using DATASET_PREPARATION.ipynb we created Dataset for Test and train.
+    
+* ## TestAndTrainCode.ipynb 
+    * This core and important metric to project.
+    * The code contains Creation of convolutions,pooling layes,activation functions,training and testing of data.
+    * also accuracy matric loss and accuracy plots.
+
+* ## TestedAndTrainedModel.h5:
+    * This .h5 format is saved model of trained Model.
+    * every time to evaluate we dont need to train the model.
+    * we saved the model, for predictions and various accuracy testing we use this model.
+    * This act as a Engine for predictions.
+* ## Accuracy.ipynb
+   * Confusion matrix etc are evaluated in Accuracy.ipynb.
+   * Can add various accuracy metrix like F1 score etc..
