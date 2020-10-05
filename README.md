@@ -1,9 +1,4 @@
-
-
 # covid-19 detection from chest x-ray images using convolution neural networks
-
-
-
 ⚡  The goals of this project are : 
 - [1]               To explore development of a machine learning algorithm to distinguish chest X-rays of individuals with respiratory illness testing positive for COVID-19 from other X-rays,
 - [2]               To promote discovery of patterns in such X-rays via CNN interpretability algorithms, and
@@ -11,7 +6,6 @@
 - [4]               To achive best Accuracy.
 
 ## --------------------------------------------------------------------------------------------------------
-
 ## install:
 * ### Python 3.6
     * recommend installing Anaconda as it is already set up for machine learning
@@ -47,11 +41,8 @@
 * plot accuracy and loss of model.
 * Compute confusion matrix to evaluate the accuracy of a classification.
 
-
 # Block Diagram:
 <img src="/blockdiagram/blockdiagram1.PNG" data-canonical-src="/blockdiagram/blockdiagram1.PNG " width="800" height="350" />
-
-
 
 # Convolution Layer
 * In which we apply the filter to a single position of the input. This will be used to build a convolutional unit, which:
@@ -61,9 +52,8 @@
 <img src="https://media.giphy.com/media/i4NjAwytgIRDW/giphy.gif" data-canonical-src="https://media.giphy.com/media/i4NjAwytgIRDW/giphy.gif "/>
 
 * In a computer vision application, each value in the matrix on the left corresponds to a single pixel value, and we convolve a 3x3 filter with the image by multiplying its values element-wise with the original matrix, then summing them up and adding a bias. In this first step of the exercise, you will implement a single step of convolution, corresponding to applying a filter to just one of the positions to get a single real-valued output.
-  
-# Max Pooling
 
+# Max Pooling
 * The pooling (POOL) layer reduces the height and width of the input. It helps reduce computation, as well as helps make feature detectors more invariant to its position in the input. The two types of pooling layers are:
     * Max-pooling layer: slides an (f,f) window over the input and stores the max value of the window in the output.
 <img src="https://hackernoon.com/hn-images/1*Feiexqhmvh9xMGVVJweXhg.gif" data-canonical-src="https://hackernoon.com/hn-images/1*Feiexqhmvh9xMGVVJweXhg.gif" width="600" height="250" />
@@ -73,9 +63,7 @@
 <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/ANN-Graph.gif" width="600" height="300" />
 
 # --------------------------------------------------------------------------------------------------------
-
 # Details of Repository
-
 ## In the Repository we have 3 Folders and 3 Files:
 
 * ## DataSets:
@@ -88,7 +76,6 @@
 * ## Blockdiagram:
     * 2 Blockdiagrams provided old and modified.
      
-    
 * ## DATASET_PREPARATION.ipynb
     * From the downloaded datasets we need need to extract our needed data.
     * By using DATASET_PREPARATION.ipynb we created Dataset for Test and train.
@@ -106,6 +93,4 @@
 * ## Accuracy.ipynb
    * Confusion matrix etc are evaluated in Accuracy.ipynb.
    * Can add various accuracy metrix like F1 score etc..
-
-
 ⚠️  **Keep All the Files and Folders in One Folder**
