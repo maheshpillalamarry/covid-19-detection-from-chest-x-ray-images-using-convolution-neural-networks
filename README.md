@@ -1,4 +1,4 @@
-# covid-19 detection from chest x-ray images using convolution neural networks
+# Covid-19 detection from chest x-ray images using convolution neural networks
 ⚡  The goals of this project are : 
 - [1]               To explore development of a machine learning algorithm to distinguish chest X-rays of individuals with respiratory illness testing positive for COVID-19 from other X-rays,
 - [2]               To promote discovery of patterns in such X-rays via CNN interpretability algorithms, and
