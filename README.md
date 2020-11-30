@@ -5,7 +5,7 @@
 - [3]               To build more robust and extensible machine learning infrastructure trained on a variety of data types, to aid in the global response to COVID-19.
 - [4]               To achive best Accuracy.
 
-## --------------------------------------------------------------------------------------------------------
+## -------------------------------------------------------------------------------------
 ## install:
 * ### Python 3.6
     * recommend installing Anaconda as it is already set up for machine learning
@@ -62,7 +62,7 @@
 * Fully connected layers connect every neuron in one layer to every neuron in another layer. It is in principle the same as the traditional multi-layer perceptron neural network (MLP). The flattened matrix goes through a fully connected layer to classify the images.
 <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/ANN-Graph.gif" width="600" height="300" />
 
-# --------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # Details of Repository
 ## In the Repository we have 3 Folders and 3 Files:
 
